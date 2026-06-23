@@ -1,4 +1,4 @@
-# Awesome Tamagotchi & Gotchi Projects [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Gotchi Projects [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 Tamagotchi-inspired virtual pets across hardware emulation, embedded cyber pets, desktop companions, and AI-driven digital creatures.
 
