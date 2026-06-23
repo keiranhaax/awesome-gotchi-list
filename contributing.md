@@ -2,13 +2,14 @@
 
 Thanks for helping improve this list.
 
-Please suggest projects that are genuinely useful to people interested in Tamagotchi, Pwnagotchi, virtual pets, care-loop games, embedded companions, desktop pets, AI pets, or related reverse-engineering and modding work.
+Please suggest projects that are genuinely useful to people interested in Tamagotchi, Pwnagotchi, virtual pets, care-loop games, embedded companions, desktop pets, AI pets, developer workflow companions, or related reverse-engineering and modding work.
 
 ## How to Contribute
 
 1. Check the existing list to avoid duplicates.
 2. Open a pull request with your suggested addition or cleanup.
 3. Follow the entry format exactly and keep the tone objective.
+4. Prefer durable project pages, official documentation, and maintained repositories.
 
 ## Criteria
 
@@ -18,7 +19,8 @@ Please suggest projects that are genuinely useful to people interested in Tamago
 - Use one Markdown link per bullet.
 - Write one concise, objective sentence that starts with a capital letter and ends with a period.
 - Do not include star counts, update dates, hype, or marketing claims unless they are directly relevant and freshly verified.
-- For WiFi, security, and capture-related projects, keep descriptions educational and remind users to operate only on networks they own or have permission to test when needed.
+- For WiFi, security, capture, HID, or automation projects, describe legitimate educational, defensive, or personal-device use cases only.
+- Do not include instructions or wording that encourages unauthorized access, credential capture, evasion, or activity on networks and systems without permission.
 - Follow the official [Awesome list guidelines](https://github.com/sindresorhus/awesome/blob/main/pull_request_template.md).
 
 ## Entry Format

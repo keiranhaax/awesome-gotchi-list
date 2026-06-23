@@ -1,0 +1,49 @@
+name: Suggest a resource
+description: Suggest a gotchi, virtual pet, emulator, companion, or related resource.
+title: "Add: "
+labels: [suggestion]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Resource name
+      placeholder: ExampleGotchi
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      placeholder: https://github.com/example/examplegotchi
+    validations:
+      required: true
+  - type: dropdown
+    id: section
+    attributes:
+      label: Suggested section
+      options:
+        - Hardware Emulators & Faithful Recreations
+        - Pwnagotchi Ecosystem
+        - ESP32, IoT & WiFi Pets
+        - Security, Utility & Defensive Companions
+        - Desktop, Terminal & Companion Pets
+        - Developer Workflow & Productivity Companions
+        - AI & LLM-Powered Virtual Pets
+        - Handheld, FPGA & Niche Recreations
+        - Research, Modding & Community Resources
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Objective one-sentence description
+      description: One concise sentence, no hype or star counts.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it belongs
+      description: Mention documentation quality, uniqueness, maintenance, historical value, or creative value. For WiFi, security, HID, or automation resources, explain the legitimate educational, defensive, or personal-device use case.
+    validations:
+      required: true

@@ -1,13 +1,15 @@
 # Awesome Gotchi Projects [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-Tamagotchi-inspired virtual pets across hardware emulation, embedded cyber pets, desktop companions, and AI-driven digital creatures.
+Tamagotchi-inspired virtual pets across hardware emulation, embedded cyber pets, desktop companions, developer tools, and AI-driven digital creatures.
 
 ## Contents
 
 - [Hardware Emulators & Faithful Recreations](#hardware-emulators--faithful-recreations)
 - [Pwnagotchi Ecosystem](#pwnagotchi-ecosystem)
 - [ESP32, IoT & WiFi Pets](#esp32-iot--wifi-pets)
+- [Security, Utility & Defensive Companions](#security-utility--defensive-companions)
 - [Desktop, Terminal & Companion Pets](#desktop-terminal--companion-pets)
+- [Developer Workflow & Productivity Companions](#developer-workflow--productivity-companions)
 - [AI & LLM-Powered Virtual Pets](#ai--llm-powered-virtual-pets)
 - [Handheld, FPGA & Niche Recreations](#handheld-fpga--niche-recreations)
 - [Research, Modding & Community Resources](#research-modding--community-resources)
@@ -17,12 +19,13 @@ Tamagotchi-inspired virtual pets across hardware emulation, embedded cyber pets,
 - [ArduinoGotchi](https://github.com/GaryZ88/ArduinoGotchi) - Emulates the original Tamagotchi P1 on Arduino Uno-class hardware with an OLED display, buttons, buzzer, and TamaLib-based ROM support.
 - [anabolyc/Tamagotchi](https://github.com/anabolyc/Tamagotchi) - Ports ArduinoGotchi and TamaLib to ESP8266, ESP32, and Arduino Nano boards for broader microcontroller experimentation.
 - [TamagotchiESP32](https://github.com/RBEGamer/TamagotchiESP32) - Adapts the ArduinoGotchi emulator for ESP32 builds with portable controls, buzzer support, and low-power behavior.
+- [tamawatchy](https://github.com/sqfmi/tamawatchy) - Runs a TamaLib-based Tamagotchi emulator on the ESP32-powered Watchy smartwatch.
+- [rustchi](https://github.com/danxexe/rustchi) - Experiments with a Tamagotchi P1 emulator written in Rust for desktop and WebAssembly targets.
 - [Tamaguino](https://alojzjakob.github.io/Tamaguino/) - Provides a popular Arduino virtual pet clone with an accessible build, animated OLED interface, and community hardware variants.
 - [tamalib](https://github.com/jcrona/tamalib) - Supplies a hardware-agnostic first-generation Tamagotchi emulation core used by many emulator and hardware recreation projects.
 - [tamatool](https://github.com/jcrona/tamatool) - Offers desktop tooling around TamaLib for inspecting and experimenting with Tamagotchi emulation.
-- [fpga-tamagotchi](https://github.com/agg23/fpga-tamagotchi) - Implements a Tamagotchi P1 core for FPGA platforms such as Analogue Pocket and MiSTer with savestates and custom display assets.
 - [tamagotchi-classic](https://github.com/afeldman/tamagotchi-classic) - Recreates the classic Tamagotchi as open hardware and software with a Rust core, ESP32 target, desktop build, schematics, and printable case.
-- [cassagotchi](https://github.com/cassprojects/cassagotchi) - Packages an Arduino Nano-powered Tamagotchi clone into a pocketable 3D-printable build with bill of materials and assembly guidance.
+- [cassagotchi](https://www.instructables.com/Arduino-Nano-Tamagotchi/) - Packages an Arduino Nano-powered Tamagotchi clone into a pocketable 3D-printable build with bill of materials and assembly guidance.
 - [flipperzero-tamagotch-p1](https://github.com/GMMan/flipperzero-tamagotch-p1) - Runs a Tamagotchi P1 emulator on Flipper Zero using TamaLib with handheld input, display, and sound integration.
 - [DigimonVPet](https://github.com/Berational91/DigimonVPet) - Recreates a Digimon-style virtual pet on Arduino and ESP32 hardware with device compatibility and hardware guides.
 - [Xling](https://github.com/mcusim/Xling) - Pairs custom AVR-based open hardware with a pocket demon game, OLED display, low-power operation, and printable enclosure.
@@ -34,6 +37,10 @@ Tamagotchi-inspired virtual pets across hardware emulation, embedded cyber pets,
 - [evilsocket/pwnagotchi](https://github.com/evilsocket/pwnagotchi) - Introduces the original AI WiFi cyber pet that learns from nearby network activity and shows its state through an e-ink face.
 - [Project-Pwnag0dchi](https://github.com/SHUR1K-N/Project-Pwnag0dchi) - Collects Pwnagotchi plugins, configurations, guides, and troubleshooting notes for advanced builds.
 - [Fancygotchi](https://github.com/V0r-T3x/Fancygotchi) - Adds a theme manager, graphical customization framework, and companion tools for Pwnagotchi displays.
+- [Fancygotchi CYD Port](https://github.com/Xombi3/Fancygotchi-cyd-port) - Brings a Pwnagotchi-inspired interface to the ESP32 Cheap Yellow Display hardware family.
+- [pwnagotchi-store](https://github.com/wpa-2/pwnagotchi-store) - Provides an unofficial plugin store and installer workflow for community Pwnagotchi modules.
+- [pwnagotchi-community-plugins](https://github.com/Teraskull/pwnagotchi-community-plugins) - Archives third-party Pwnagotchi plugins with a shared structure for community maintenance.
+- [PwnIOS](https://github.com/BraedenP232/PwnIOS) - Adds an iOS companion app for monitoring and administering a Pwnagotchi device.
 - [wardriver-pwnagotchi-plugin](https://github.com/cyberartemio/wardriver-pwnagotchi-plugin) - Logs visible networks from a Pwnagotchi and uploads observations to WiGLE when connectivity is available.
 - [DiscoHash](https://github.com/flamebarke/DiscoHash) - Converts captured handshakes for hashcat workflows and adds analysis, geolocation, and Discord reporting features.
 - [pwnagotchi-pisugar2-plugin](https://github.com/tisboyo/pwnagotchi-pisugar2-plugin) - Displays PiSugar2 battery information on the Pwnagotchi interface for portable builds.
@@ -49,9 +56,18 @@ Tamagotchi-inspired virtual pets across hardware emulation, embedded cyber pets,
 - [catode32](https://github.com/moonbench/catode32) - Delivers a deep ESP32 digital pet with care mechanics, minigames, locations, weather, gardening, vacations, and playdates.
 - [ASE_virtualpet](https://github.com/BMarujo/ASE_virtualpet) - Combines an ESP32-C6 virtual pet with sensors, FreeRTOS tasks, secure MQTT telemetry, SD storage, and a web dashboard.
 - [raising-hell-cardputer](https://github.com/acpayers-alt/raising-hell-cardputer) - Runs a Tamagotchi-style pet on M5Stack Cardputer hardware with life stages, feeding, sleep cycles, minigames, and device controls.
-- [esp32AIbara](https://github.com/Sophieunrhetorical692/esp32AIbara) - Builds an ESP32 capybara companion with AI behavior, weather data, and an ST7789 display.
+- [esp32AIbara](https://github.com/DefinitelyN0tMe/esp32AIbara) - Builds an ESP32 capybara companion with AI behavior, weather data, WiFi presence detection, and an ST7789 display.
+- [Pixel-Pets](https://github.com/marceld23/Pixel-Pets) - Offers a local-first virtual pet ecosystem for M5Stack devices with offline play, education-focused code, and multiple companion variants.
+- [ESP32-TamaPetchi](https://github.com/CyberXcyborg/ESP32-TamaPetchi) - Implements an offline ESP32 virtual pet inspired by classic Tamagotchi care loops.
+- [ESP32Pet](https://github.com/dishishshawn/ESP32Pet) - Combines ESP32 firmware and PCB design for a portable virtual pet with a TFT display.
+- [esp32-s3-tamagotchi](https://github.com/beccamakes/esp32-s3-tamagotchi) - Uses habit completion on an ESP32-S3 board to keep a physical virtual pet healthy.
 - [xiaodouding](https://github.com/huaspirit123/xiaodouding) - Turns M5Stack Cardputer hardware into an LLM-powered pixel pet with memory, voice, moods, weather, clock, and a browser simulator.
 - [ClawdBot Tamagotchi](https://www.schematik.io/guides/esp32/build-a-clawdbot-tamagotchi) - Teaches ESP32 embedded development through a lobster companion with an OLED face, buttons, buzzer, and mood loop.
+
+## Security, Utility & Defensive Companions
+
+- [Netgotchi](https://github.com/MXZZ/Netgotchi) - Reimagines the Pwnagotchi concept as a defensive network-monitoring pet for local subnet awareness.
+- [stenogotchi](https://github.com/Anodynous/stenogotchi) - Adapts the gotchi device pattern into a portable stenography companion using Plover and Bluetooth keyboard emulation.
 
 ## Desktop, Terminal & Companion Pets
 
@@ -67,10 +83,16 @@ Tamagotchi-inspired virtual pets across hardware emulation, embedded cyber pets,
 - [CliWaifuTamagotchi](https://github.com/HenryLoM/CliWaifuTamagotchi) - Adds a customizable ASCII avatar pet to the command line with motivational TUI interactions.
 - [ezeoleaf/termagotchi](https://github.com/ezeoleaf/termagotchi) - Implements a polished Go terminal Tamagotchi with hunger, happiness, health, energy, life stages, autosave, and time decay.
 - [trevarj/termagotchi](https://github.com/trevarj/termagotchi) - Provides a beginner-friendly Rust terminal Tamagotchi with simple simulation mechanics.
-- [TamoStudy](https://github.com/narlock/TamoStudy) - Combines a work and study timer with a virtual pet loop to reward focus and productivity.
+
+## Developer Workflow & Productivity Companions
+
+- [TamoStudy](https://github.com/narlock/TamoStudy) - Combines an archived work and study timer with a virtual pet loop that rewards focus and productivity.
 - [pet-gotchi-go](https://github.com/LeidiFlores/pet-gotchi-go) - Builds a Go and Ebiten virtual pet that can run in the browser through WebAssembly.
 - [purrminal](https://github.com/itstimi-XD/purrminal) - Grows a calming terminal pet with themes, internationalization, and Pomodoro integration.
 - [cattatime](https://github.com/joysudo/cattatime) - Links a desktop cat companion to Hackatime activity so coding progress earns coins and accessories.
+- [terminal-pet](https://github.com/apoorvgarg31/terminal-pet) - Keeps a terminal pet alive through ongoing Git commit activity.
+- [obsidian-virtual-pet](https://github.com/DiegooCM/obsidian-virtual-pet) - Adds a virtual pet to Obsidian for gamifying writing progress and productivity goals.
+- [TamaGROTchi](https://github.com/grafana/TamaGROTchi) - Demonstrates a digital pet that exports lifecycle data as OpenTelemetry metrics for Grafana dashboards.
 
 ## AI & LLM-Powered Virtual Pets
 
@@ -81,15 +103,22 @@ Tamagotchi-inspired virtual pets across hardware emulation, embedded cyber pets,
 - [flubber-ai-companion](https://github.com/lordmacu/flubber-ai-companion) - Creates an AI slime desktop pet for macOS and Windows with real-time Tamagotchi mechanics and LLM chat.
 - [luma](https://github.com/SnoWz96x/luma) - Builds an offline-first AI desktop pet focused on mindfulness, self-care, Ollama support, and local privacy.
 - [buddy](https://github.com/fiorastudio/buddy) - Evolves an AI coding companion with persistent memory, XP, moods, and support across multiple command-line clients.
+- [claude-code-tamagotchi](https://github.com/Ido-Levi/claude-code-tamagotchi) - Monitors Claude Code sessions through a statusline pet that reacts to behavioral and instruction-following signals.
+- [airi](https://github.com/moeru-ai/airi) - Provides a self-hosted AI companion framework with voice chat, avatar support, and game interaction experiments.
+- [openclawgotchi](https://github.com/turmyshevd/openclawgotchi) - Runs an agentic AI Tamagotchi on Raspberry Pi hardware with an e-ink face and OpenClaw integration.
+- [pet-mochi](https://github.com/cskwork/pet-mochi) - Builds a local-first desktop AI pet with Rust, Tauri, SQLite memory, and optional Ollama-powered personality.
 - [Dosidicus](https://github.com/ViciousSquid/Dosidicus) - Combines a Tamagotchi-style digital squid with a visible neural network that rewires through Hebbian learning and neurogenesis.
 
 ## Handheld, FPGA & Niche Recreations
 
+- [fpga-tamagotchi](https://github.com/agg23/fpga-tamagotchi) - Implements a Tamagotchi P1 core for FPGA platforms such as Analogue Pocket and MiSTer with savestates and custom display assets.
 - [playdate-tamagotchi](https://github.com/ericlewis/playdate-tamagotchi) - Brings a Tamagotchi P1 emulator to the Playdate handheld with controls tailored to the device.
+- [tt10-moody-mimosa](https://github.com/schda1/tt10-moody-mimosa) - Implements a Tamagotchi-like behavioral model as a tiny tapeout ASIC design in Verilog.
 
 ## Research, Modding & Community Resources
 
 - [tamagotchi-tech-specs](https://github.com/loociano/tamagotchi-tech-specs) - Documents Tamagotchi hardware, reverse engineering notes, datasheets, and related technical references.
+- [tamagotchi-disassembled](https://github.com/agg23/tamagotchi-disassembled) - Provides a Tamagotchi P1 ROM disassembly with tools for low-level reverse engineering and study.
 - [TamaSprite](https://ko-fi.com/s/0cba4105ef) - Edits Tamagotchi Paradise and Jade Forest firmware sprites with visual tooling, bulk export, and a modding-oriented workflow.
 - [tama-para-research](https://github.com/GMMan/tama-para-research) - Collects Tamagotchi Paradise reverse-engineering, protocol research, scripts, and web-emulation resources.
 - [Pwnagotchi Plugin Index](https://pwnagotchi.ai/plugins/) - Lists Pwnagotchi plugins with descriptions, usage notes, and development links.
