@@ -1,15 +1,13 @@
 # Awesome Tamagotchi & Gotchi Projects [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-Virtual pet projects inspired by Tamagotchi, Pwnagotchi, handheld emulators, embedded companions, and AI-driven digital creatures.
+Tamagotchi-inspired virtual pets across hardware emulation, embedded cyber pets, desktop companions, and AI-driven digital creatures.
 
 ## Contents
 
 - [Hardware Emulators & Faithful Recreations](#hardware-emulators--faithful-recreations)
 - [Pwnagotchi Ecosystem](#pwnagotchi-ecosystem)
 - [ESP32, IoT & WiFi Pets](#esp32-iot--wifi-pets)
-- [Arduino, AVR & Microcontroller Pets](#arduino-avr--microcontroller-pets)
-- [Raspberry Pi & Desktop Companions](#raspberry-pi--desktop-companions)
-- [Software, Web & Terminal Clones](#software-web--terminal-clones)
+- [Desktop, Terminal & Companion Pets](#desktop-terminal--companion-pets)
 - [AI & LLM-Powered Virtual Pets](#ai--llm-powered-virtual-pets)
 - [Handheld, FPGA & Niche Recreations](#handheld-fpga--niche-recreations)
 - [Research, Modding & Community Resources](#research-modding--community-resources)
@@ -26,6 +24,9 @@ Virtual pet projects inspired by Tamagotchi, Pwnagotchi, handheld emulators, emb
 - [tamagotchi-classic](https://github.com/afeldman/tamagotchi-classic) - Recreates the classic Tamagotchi as open hardware and software with a Rust core, ESP32 target, desktop build, schematics, and printable case.
 - [cassagotchi](https://github.com/cassprojects/cassagotchi) - Packages an Arduino Nano-powered Tamagotchi clone into a pocketable 3D-printable build with bill of materials and assembly guidance.
 - [flipperzero-tamagotch-p1](https://github.com/GMMan/flipperzero-tamagotch-p1) - Runs a Tamagotchi P1 emulator on Flipper Zero using TamaLib with handheld input, display, and sound integration.
+- [DigimonVPet](https://github.com/Berational91/DigimonVPet) - Recreates a Digimon-style virtual pet on Arduino and ESP32 hardware with device compatibility and hardware guides.
+- [Xling](https://github.com/mcusim/Xling) - Pairs custom AVR-based open hardware with a pocket demon game, OLED display, low-power operation, and printable enclosure.
+- [Build a Mini-Sized Arduino Based Tamagotchi](https://www.instructables.com/Build-a-Mini-Sized-Arduino-Based-Tamagotchi/) - Walks beginners through an Arduino Uno Tamagotchi build with OLED wiring, buttons, buzzer, and example code.
 
 ## Pwnagotchi Ecosystem
 
@@ -52,22 +53,13 @@ Virtual pet projects inspired by Tamagotchi, Pwnagotchi, handheld emulators, emb
 - [xiaodouding](https://github.com/huaspirit123/xiaodouding) - Turns M5Stack Cardputer hardware into an LLM-powered pixel pet with memory, voice, moods, weather, clock, and a browser simulator.
 - [ClawdBot Tamagotchi](https://www.schematik.io/guides/esp32/build-a-clawdbot-tamagotchi) - Teaches ESP32 embedded development through a lobster companion with an OLED face, buttons, buzzer, and mood loop.
 
-## Arduino, AVR & Microcontroller Pets
-
-- [DigimonVPet](https://github.com/Berational91/DigimonVPet) - Recreates a Digimon-style virtual pet on Arduino and ESP32 hardware with device compatibility and hardware guides.
-- [Xling](https://github.com/mcusim/Xling) - Pairs custom AVR-based open hardware with a pocket demon game, OLED display, low-power operation, and printable enclosure.
-- [Build a Mini-Sized Arduino Based Tamagotchi](https://www.instructables.com/Build-a-Mini-Sized-Arduino-Based-Tamagotchi/) - Walks beginners through an Arduino Uno Tamagotchi build with OLED wiring, buttons, buzzer, and example code.
-
-## Raspberry Pi & Desktop Companions
+## Desktop, Terminal & Companion Pets
 
 - [macagotchi-pi](https://github.com/SpaceMonkeyAlfa/macagotchi-pi) - Uses a Raspberry Pi and e-paper display to make a WiFi-scanning pet whose happiness changes as it discovers nearby SSIDs.
 - [wayland-vpets](https://github.com/furudbat/wayland-vpets) - Runs virtual pets as Linux Wayland desktop overlays with support for Tamagotchi, Digimon, Pokemon, and other creature styles.
 - [PetForDesktop](https://github.com/Renardjojo/PetForDesktop) - Provides a Windows desktop pet with Tamagotchi-inspired gameplay and system companion behavior.
 - [Tama96](https://www.tama96.com/) - Presents a cross-platform 1996-inspired virtual pet with desktop, terminal, and AI-agent integration.
 - [TerenceGrover/tamagotchi](https://github.com/TerenceGrover/tamagotchi) - Simulates a physical Tamagotchi-like life on Raspberry Pi with an RGB LED matrix, buttons, and stat-driven events.
-
-## Software, Web & Terminal Clones
-
 - [tamagotchiClone](https://github.com/ChrisChrisLoLo/tamagotchiClone) - Recreates Tamagotchi-style care in a browser game using JavaScript, Phaser, real-time needs, and save support.
 - [myTamagotchi](https://github.com/john-farina/myTamagotchi) - Offers a clean vanilla JavaScript and CSS web version of classic virtual pet care.
 - [siegerts/tama96](https://github.com/siegerts/tama96) - Runs a 1996-inspired virtual pet across desktop, terminal, and MCP agent surfaces with lifecycle-driven care choices.
