@@ -1,5 +1,7 @@
 # Awesome Gotchi Projects [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+<a href="https://github.com/keiranhaax/awesome-gotchi-list"><img align="right" src="media/awesome-gotchi-mascot.png" width="180" alt="Pixel art wizard cat mascot for Awesome Gotchi Projects"></a>
+
 Tamagotchi-inspired virtual pets across hardware emulation, embedded cyber pets, desktop companions, developer tools, and AI-driven digital creatures.
 
 ## Contents
